@@ -10,7 +10,7 @@ export function Portafolio() {
   return (
     <main className="h-auto">
 
-      <section className="h-screen bg-gray-500/50 bg-[url('fondo.png')]">
+      <section className="h-screen bg-gray-500/50 bg-[url('/fondo.png')]">
 
         <header className="p-8 flex fixed justify-center sm:justify-between items-center w-full">
           <div className="hidden sm:block py-4 px-6 rounded-xl bg-white/30 border border-white/10 backdrop-blur-md shadow-lg">
