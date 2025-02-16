@@ -68,7 +68,38 @@ export function Portafolio() {
 
       </section>
 
-      <section className="h-screen bg-gray-500/50">
+      <section className="w-full h-auto bg-gray-500/50 ">
+
+        <div className="mx-50 py-15 h-full w-[40%]">
+
+          <div className="-space-y-2.5">
+            <h2 className="text-5xl" >INTRODUCCIÓN</h2>
+            <span className="text-xl">equisde equisde</span>
+          </div>
+
+          <div className="text-8xl mb-10">
+            <h1>Hola soy JP, Encantado de Conocerte!</h1>
+          </div>
+
+          <article className="text-3xl space-y-5 pr-36">
+            <p>
+            Soy Actualmente un desarrollador con más de 1 años de 
+            experiencia transcurriendo una segunda carrera
+            </p>
+              
+            <p>
+            con conocimientos en UI/UX y tecnologias comojavacript,
+            react,css,typescript, etc.
+            </p>
+            
+            <h3 className="text-2xl">
+              @jeanpooldev
+            </h3>
+          </article>
+
+          
+        </div>
+              
 
       </section>
 
