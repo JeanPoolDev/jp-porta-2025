@@ -29,7 +29,7 @@ export function Slider() {
         <After />
       </button>
 
-      <div className="relative w-full h-full overflow-hidden rounded-lg border-2 shadow-sm shadow-white ">
+      <div className="relative w-full h-full overflow-hidden rounded-lg border-2  shadow-white ">
         <div
           className="flex transition-transform duration-500 ease-out h-full"
           style={{ transform: `translateX(-${currentSlide * 100}%)` }}
