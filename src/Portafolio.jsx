@@ -60,16 +60,13 @@ export function Portafolio() {
 
       <section className="h-auto bg-black p-8 space-y-10" id="videos">
 
-        {/* <p className="text-white text-2xl flex items-center gap-2">
-          No te olvides de seguirme en Youtube <span > <Youtube /> </span>
-        </p> */}
 
         <div >
           <h2 className="text-3xl mb-2 text-white" >
             NO TE OLVIDES DE SEGUIRME EN YOUTUBE
           </h2>
           <span className="text-sm bg-white font-semibold  tracking-[.20em]">
-            YouTubeで私をフォローするのを忘れないでください。
+          DON'T FORGET TO FOLLOW ME ON YOUTUBE
           </span>
         </div>
 
@@ -84,7 +81,7 @@ export function Portafolio() {
           <div >
             <h2 className="text-4xl mb-2" >INTRODUCCIÓN</h2>
             <span className="text-sm bg-black text-white tracking-[.20em]">
-              イントロダクション
+              INTRODUCTION
             </span>
           </div>
 
@@ -95,27 +92,24 @@ export function Portafolio() {
           <article className="text-2xl space-y-5 
           font-light w-auto sm:w-[480px] mb-10">
 
-            <p className="tracking-[.10em]">
-              Desarrollador con más de 1 año de experiencia en el diseño y desarrollo de aplicaciones web, actualmente cursando una segunda carrera para ampliar mis conocimientos técnicos y habilidades interdisciplinarias.
-            </p>
+            <p className="tracking-[.10em]"> Profesional con más de 1 año de experiencia en el diseño y desarrollo de aplicaciones web.</p>
+
+            <p className="tracking-[.10em]"> Especializado en diseño de interfaces (UI/UX) y con dominio de tecnologías modernas como JavaScript, React, TypeScript, CSS y otras herramientas del ecosistema frontend. </p>
 
             <p className="tracking-[.10em]">
-              Especializado en diseño de interfaces (UI/UX) y con dominio de tecnologías modernas como JavaScript, React, TypeScript, CSS y otras herramientas del ecosistema frontend. Comprometido con la creación de soluciones escalables, eficientes y centradas en el usuario.
+            Comprometido con la creación de soluciones escalables, eficientes y centradas en el usuario, aplicando estas habilidades para mejorar procesos y herramientas en el ámbito de recursos humanos. 
             </p>
 
-            <h3 className="text-2xl">
+            <span className="text-2xl text-white bg-black w-auto">
               @jeanpooldev
-            </h3>
+            </span>
           </article>
 
           <div className="flex gap-6 text-white font-semibold">
             <a
+              download='CVJeanPoolDesarrollodeSoftware2025'
+              href="/pdf/CVJeanPoolDesarrollodeSoftware2025.pdf"
               className="px-[75px] sm:px-[100px] py-[20px] bg-black border  hover:opacity-70 ease-in-out">
-              CV
-            </a>
-            <a
-              className="px-[75px] sm:px-[100px] py-[20px] bg-black border 
-             hover:opacity-70 ease-in-out">
               CV
             </a>
           </div>

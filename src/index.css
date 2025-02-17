@@ -7,6 +7,6 @@ body {
 .fondo {
   background-image: url('/fondo2.png');
   background-repeat: no-repeat;
-  background-size: 1900px 1250px;
+  background-size:cover;
   background-position: bottom;
 }
