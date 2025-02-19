@@ -1,40 +1,42 @@
 import { Slider } from "./components/Slider";
+import { Linkeding, YoutuBe, Github } from "./icons";
 
 const links = [
-  { name: 'Github', path: '#' },
-  { name: 'Linkedin', path: '#' },
-  { name: 'Youtube', path: '#' },
+  { path: 'https://github.com/JeanPoolDev', icono: <Github /> },
+  { path: 'https://www.linkedin.com/in/jean-pool-rojas-avila-70535b251/', icono: <Linkeding /> },
+  { path: 'https://www.youtube.com/', icono: <YoutuBe/> },
 ]
 
 export function Portafolio() {
 
   return (
     <main className="h-auto">
-
-      <section className="h-screen 
+      <section className="h-screen bg-black 
       bg-[url('/fondoHome.jpg')] bg-cover" id="inicio">
 
-        <header className="p-8 flex fixed justify-center sm:justify-between items-center w-full z-30 tracking-none sm:tracking-[.10em]">
+        <header className="p-8 flex fixed justify-center sm:justify-between items-center w-full z-30 tracking-none sm:tracking-[.10em] text-white">
 
-          <div className="hidden sm:block py-4 px-6 rounded-xl bg-white/60 border border-white/10 backdrop-blur-md shadow-lg">
-            Logo
-          </div>
+            <a className="hover:text-[#00FFFF]" href="#">
+              <div className="hidden sm:block p-5 rounded-lg bg-black">
+                JP  
+              </div>
+            </a>
 
-          <div className="bg-white/60 border-white/10 border p-4 rounded-xl shadow-lg backdrop-blur-md ">
-            <nav className="flex gap-4 sm:gap-10 md:gap-15 items-center text-center">
-              <a href="/">Inicio</a>
-              <a href="#aboutme">Sobre mi</a>
-              <a href="#">Proyectos</a>
-              <a href="#videos">Videos</a>
+          <div className="py-3 sm:py-5 px-10 rounded-lg shadow-lg bg-black  ">
+            <nav className="flex gap-4 sm:gap-10 text-lg md:gap-15 items-center text-center">
+              <a className="hover:text-[#00FFFF]" href="#">INICIO</a>
+              <a className="hover:text-[#00FFFF]" href="#aboutme">SOBRE MI</a>
+              <a className="hover:text-[#00FFFF]" href="#">PROYECTOS</a>
+              <a className="hover:text-[#00FFFF]" href="#videos">VIDEOS</a>
             </nav>
           </div>
         </header>
 
         <div className=" h-[85%] flex justify-center 
         items-center flex-col text-center  lg:text-white">
-          <p className="text-2xl">──── 創造と革新 ────</p>
-          <h1 className="text-9xl">JEAN-POOL</h1>
-          <p className="text-2xl tracking-[.40em]">DESIGNER WEB AND SOFTWARE</p>
+          <p className="text-2xl text-center">──── 創造と革新 ────</p>
+          <h1 className="text-9xl tracking-[.15em]">JEAN-POOL</h1>
+          <p className="text-2xl sm:text-4xl tracking-[.30em]">DESIGNER WEB AND SOFTWARE</p>
         </div>
 
         <div className=" h-[15%] px-8">
@@ -43,11 +45,11 @@ export function Portafolio() {
             {
               links.map(link => (
                 <a
-                  key={link.name}
+                  target="_blank"
+                  key={link.path}
                   href={link.path}
-                  className="px-6 sm:px-8 md:px-18 py-4 bg-white/30 backdrop-blur-md 
-                  shadow-lg border-white/10 border">
-                  {link.name}
+                  className={`px-6 sm:px-8 md:px-18 py-4 bg-black hover:opacity-75 ease-in-out`}>
+                  {link.icono}
                 </a>
               ))
             }
@@ -120,7 +122,7 @@ export function Portafolio() {
 
       </section>
 
-      <section className="h-auto bg-gray-950 flex flex-col sm:flex-row px-20 text-white py-10 gap-5 sm:gap-0.5">
+      <section className="h-auto bg-[#121212] flex flex-col sm:flex-row px-20 text-white py-10 gap-5 sm:gap-0.5">
 
         <div className="w-full sm:w-1/2 flex items-center justify-center">
           <a
