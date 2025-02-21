@@ -34,7 +34,7 @@ export function AboutmeUi(){
             <a
               download='CVJeanPoolDesarrollodeSoftware2025'
               href="/pdf/CVJeanPoolDesarrollodeSoftware2025.pdf"
-              className="px-[75px] sm:px-[100px] py-[20px] bg-black border  hover:opacity-70 ease-in-out">
+              className="px-[75px] sm:px-[100px] py-[20px] bg-black  hover:opacity-70 ease-in-out">
               CV
             </a>
           </div>
