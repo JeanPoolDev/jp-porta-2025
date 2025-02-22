@@ -2,7 +2,6 @@
 export function AboutmeUi(){
  return(
   <div className="px-3 lg:px-0 mx-auto py-15 h-full w-full sm:w-1/2 grid place-content-center">
-
           <div >
             <h2 className="text-4xl mb-2" >INTRODUCCIÓN</h2>
             <span className="text-sm bg-black text-white tracking-[.20em]">

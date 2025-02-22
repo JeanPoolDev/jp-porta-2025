@@ -17,7 +17,7 @@ export function HomeUi(){
           </div>
         </a>
 
-      <div className="py-3 sm:py-5 px-10 rounded-lg shadow-lg bg-black  ">
+      <div className="py-3 sm:py-5 px-10 rounded-lg shadow-lg bg-black">
         <nav className="flex gap-4 sm:gap-10 text-lg md:gap-15 items-center text-center">
           <a className="hover:text-[#00FFFF]" href="#">INICIO</a>
           <a className="hover:text-[#00FFFF]" href="#aboutme">SOBRE MI</a>
@@ -28,10 +28,12 @@ export function HomeUi(){
     </header>
 
     <div className=" h-[85%] flex justify-center 
-    items-center flex-col text-center  lg:text-white">
-      <p className="text-2xl text-center">──── 創造と革新 ────</p>
+    items-center flex-col text-center">
+      <p className="text-2xl">──── 創造と革新 ────</p>
       <h1 className="text-9xl tracking-[.15em]">JEAN-POOL</h1>
-      <p className="text-2xl sm:text-4xl tracking-[.30em]">DESIGNER WEB AND SOFTWARE</p>
+      <p className="text-2xl sm:text-4xl tracking-[.30em]">
+        DESIGNER WEB AND SOFTWARE
+      </p>
     </div>
 
     <div className=" h-[15%] px-8">
